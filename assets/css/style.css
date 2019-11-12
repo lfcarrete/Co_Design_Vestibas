@@ -1,0 +1,25 @@
+@media(max-width: 375.2px) {
+	.header{
+		background-color: black;
+		height: 3.5rem;
+		margin-bottom: 2rem;
+	}
+	.main{
+		display: flex;
+	}
+	.myFaculs{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.facul{
+		display: block;
+		height: 7rem;
+		width: 7rem;
+		font-size: 2rem;
+		margin: 1.5rem;
+		padding: 0.5rem;
+		color: white;
+	}
+}
