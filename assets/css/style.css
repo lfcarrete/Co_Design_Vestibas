@@ -1,11 +1,32 @@
 @media(max-width: 375.2px) {
 	.header{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
 		background-color: black;
 		height: 3.5rem;
-		margin-bottom: 2rem;
 	}
+	.menu_img{
+		width: 3.5rem;
+		margin: 0.5rem;
+	}
+	.menu{
+		position: absolute;
+		display: none;
+		background-color: black;
+		color: white;
+		height: 10rem;
+		width: 12rem;
+		transform: translate(93%, -20%)
+	}
+	.item{
+		padding: 0.5rem;
+		text-align: right;
+	}
+
 	.main{
 		display: flex;
+		margin-top: 2rem;
 	}
 	.myFaculs{
 		display: flex;
