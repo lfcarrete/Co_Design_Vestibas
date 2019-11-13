@@ -1,10 +1,13 @@
-@media(max-width: 375.2px) {
+@media(max-width: 420px) {
 	.header{
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 		background-color: black;
 		height: 3.5rem;
+		position: fixed;
+		width:100%;
+		top:0rem;
 	}
 	.menu_img{
 		width: 3.5rem;
@@ -17,7 +20,8 @@
 		color: white;
 		height: 10rem;
 		width: 12rem;
-		transform: translate(93%, -20%)
+		top:3.5rem;
+		right:0.5rem;
 	}
 	.item{
 		padding: 0.5rem;
@@ -26,7 +30,7 @@
 
 	.main{
 		display: flex;
-		margin-top: 2rem;
+		margin-top: 5.5rem;
 	}
 	.myFaculs{
 		display: flex;
