@@ -48,15 +48,18 @@
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		justify-content: space-around;
+		justify-content: space-evenly; 
+
 	}
 	.facul{
 		display: block;
 		height: 7rem;
 		width: 7rem;
 		font-size: 2rem;
-		margin: 1.5rem;
 		padding: 0.5rem;
 		color: white;
+		box-shadow: 0.25rem 0.5rem #888888;
+		border:0.1rem solid;
+		border-color: black
 	}
 }
