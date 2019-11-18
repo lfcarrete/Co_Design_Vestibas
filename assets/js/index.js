@@ -14,30 +14,15 @@ document.addEventListener('DOMContentLoaded', function() {
             open -= 1;
          }
    });
-   document.querySelector(".facul1").addEventListener("click",function(){
-      document.querySelector(".facul1").style.boxShadow = "0.25rem 0.5rem #888888";
-      document.querySelector(".facul1").style.transform = "translate(.5rem, .5rem)";
-   })
-   document.querySelector(".facul2").addEventListener("click",function(){
-      document.querySelector(".facul2").style.boxShadow = "0.25rem 0.5rem #888888";
-      document.querySelector(".facul2").style.transform = "translate(.5rem, .5rem)";
-   })
-   document.querySelector(".facul3").addEventListener("click",function(){
-      document.querySelector(".facul3").style.boxShadow = "0.25rem 0.5rem #888888";
-      document.querySelector(".facul3").style.transform = "translate(.5rem, .5rem)";
-   })
-   document.querySelector(".facul4").addEventListener("click",function(){
-      document.querySelector(".facul4").style.boxShadow = "0.25rem 0.5rem #888888";
-      document.querySelector(".facul4").style.transform = "translate(.5rem, .5rem)";
-   })
-   document.querySelector(".facul5").addEventListener("click",function(){
-      document.querySelector(".facul5").style.boxShadow = "0.25rem 0.5rem #888888";
-      document.querySelector(".facul5").style.transform = "translate(.5rem, .5rem)";
-   })
-   document.querySelector(".facul6").addEventListener("click",function(){
-      document.querySelector(".facul6").style.boxShadow = "0.25rem 0.5rem #888888";
-      document.querySelector(".facul6").style.transform = "translate(.5rem, .5rem)";
-   })
+   function clickAnim(facul){
+      document.querySelector("${facul}").style.boxShadow = "0.25rem 0.5rem #888888";
+      document.querySelector("${facul}").style.transform = "translate(.5rem, .5rem)";
+   }
+   for(i = 1; i < 7; i++) {
+      document.querySelector(".facul${i}").addEventListener("click",function(){
+      clickAnim(document.querySelector(".facul${i}"));
+      })
+   }
 })
 
 
