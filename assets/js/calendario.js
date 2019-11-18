@@ -4,11 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
       document.querySelector(String(dia)).style.backgroundColor = "rgb(224, 38, 44)";
    }
    function clear(){
-      for(i=1;i<31;i++){
+      for(i=1;i<32;i++){
          document.querySelector(".dia"+i).style.backgroundColor = "rgb(255, 186, 186)";
       }
    }
-
    document.querySelector(".dia1").addEventListener("click", function(){
       clear();
       select(".dia1")
