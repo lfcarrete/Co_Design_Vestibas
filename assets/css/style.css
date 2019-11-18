@@ -1,4 +1,5 @@
 @media(max-width: 420px) {
+/* Header--------------------------------------------------------*/
 	.header{
 		display: flex;
 		flex-direction: row;
@@ -37,7 +38,7 @@
 		padding: 0.5rem;
 		text-align: right;
 	}
-
+/* Index & Descubra--------------------------------------------------------*/
 	.main{
 		display: flex;
 		margin-top: 5.5rem;
@@ -58,9 +59,69 @@
 		font-size: 2rem;
 		padding: 0.5rem;
 		color: white;
-		
 		box-shadow: 0.5rem 1rem #888888;
 		border:0.1rem solid;
 		border-color: black;
+	}
+	.facul1:active,.facul2:active,.facul3:active,.facul4:active,.facul5:active,.facul6:active{
+		display: block;
+		height: 7rem;
+		width: 7rem;
+		font-size: 2rem;
+		padding: 0.5rem;
+		color: white;
+		box-shadow: 0.25rem 0.5rem #888888;
+        transform: translate(.5rem, .5rem);
+		border:0.1rem solid;
+		border-color: black;
+	}
+/* Calendario--------------------------------------------------------*/
+	.cal_title{
+		text-decoration: underline;
+		font-size: 3rem;
+		margin-bottom: 3rem;
+	}
+	.cal{
+		display: block;
+		width: 23rem;
+		text-align: center;
+	}
+	.semana{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-around; 
+		justify-content: center
+	}
+	.dias{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.sem{
+		display: block;
+		border-color: black;
+		border-style: solid;
+		border-width:0.1rem;
+		font-size: 1.2rem;
+		width:2rem;
+		padding: 0.5rem;
+		text-align: center;
+		background-color:rgb(245, 103, 103);
+	}
+	.dia,.dia1,.dia1,.dia2,.dia3,.dia4,.dia5,.dia6,.dia7,.dia8,.dia9,.dia10,.dia11,.dia12,.dia13,.dia14,.dia15,.dia16,.dia17,.dia18,.dia19,.dia20,.dia21,.dia22,.dia23,.dia24,.dia25,.dia26,.dia27,.dia28,.dia29,.dia30,.dia31{
+		display: block;
+		width: 2rem;
+		height: 3rem
+		border-color: black;
+		border-style: solid;
+		border-width:0.1rem;
+		font-size: 1.5rem;
+		padding: 0.5rem;
+		margin: 0rem;
+		background-color: rgb(255, 186, 186);
+	}
+	.dia:active{
+		background-color: rgb(247, 47, 47);
 	}
 }

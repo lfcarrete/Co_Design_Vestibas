@@ -14,15 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
             open -= 1;
          }
    });
-   function clickAnim(facul){
-      document.querySelector("${facul}").style.boxShadow = "0.25rem 0.5rem #888888";
-      document.querySelector("${facul}").style.transform = "translate(.5rem, .5rem)";
-   }
-   for(i = 1; i < 7; i++) {
-      document.querySelector(".facul${i}").addEventListener("click",function(){
-      clickAnim(document.querySelector(".facul${i}"));
-      })
-   }
 })
 
 
