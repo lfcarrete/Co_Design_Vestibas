@@ -126,10 +126,10 @@
 	}
 	.valor{
 		display: none;
-		border-color: rgb(0, 128, 189);
+		border-color: rgb(155, 200, 222);
 		border-width: 0.2rem;
 		border-style: solid;
-		background-color: rgb(0, 170, 250);
+		background-color: rgb(170, 218, 242);
 		margin-top: 3rem;
 		font-size: 2rem;
 		width:17rem;
