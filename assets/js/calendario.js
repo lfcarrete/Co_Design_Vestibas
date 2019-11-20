@@ -6,12 +6,16 @@ document.addEventListener('DOMContentLoaded', function() {
    function clear(){
       for(i=1;i<32;i++){
          document.querySelector(".dia"+i).style.backgroundColor = "rgb(100, 202, 250)";
-         document.querySelector(".valor").style.display = "none";
+         document.querySelector(".valor_div").style.display = "none";
+         
       }
    }
-   function setValor(valor){
+   function setValor(valor,link){
       document.querySelector(".valor").innerHTML = valor;
-      document.querySelector(".valor").style.display = "block";
+      document.querySelector(".link").href = link;
+      document.querySelector(".valor_div").style.display = "block";
+
+      
    }
 
    document.querySelector(".dia1").addEventListener("click", function(){
@@ -22,8 +26,9 @@ document.addEventListener('DOMContentLoaded', function() {
       clear();
       select(".dia2")
       let valor = "Palestra com Engenheiro Civil."
-      setValor(valor);
-   
+      let link = "prof.html"
+      setValor(valor,link);
+
 ;   });
    document.querySelector(".dia3").addEventListener("click", function(){
       clear();
@@ -61,7 +66,8 @@ document.addEventListener('DOMContentLoaded', function() {
       clear();
       select(".dia11");
       let valor = "Palestra com Engenheiro de Computação."
-      setValor(valor);
+      let link = "prof.html"
+      setValor(valor,link);
    });
    document.querySelector(".dia12").addEventListener("click", function(){
       clear();
@@ -99,7 +105,8 @@ document.addEventListener('DOMContentLoaded', function() {
       clear();
       select(".dia20");
       let valor = "Dia de Prova da ABC."
-      setValor(valor);
+      let link = "faculdade.html"
+      setValor(valor,link);
    });
    document.querySelector(".dia21").addEventListener("click", function(){
       clear();
@@ -109,7 +116,8 @@ document.addEventListener('DOMContentLoaded', function() {
       clear();
       select(".dia22");
       let valor = "Dia de Prova do Ibmec."
-      setValor(valor);
+      let link = "faculdade.html"
+      setValor(valor,link);
    });
    document.querySelector(".dia23").addEventListener("click", function(){
       clear();
@@ -119,7 +127,8 @@ document.addEventListener('DOMContentLoaded', function() {
       clear();
       select(".dia24");
       let valor = "Dia de Prova da Fuvest."
-      setValor(valor);
+      let link = "faculdade.html"
+      setValor(valor,link);
    });
    document.querySelector(".dia25").addEventListener("click", function(){
       clear();

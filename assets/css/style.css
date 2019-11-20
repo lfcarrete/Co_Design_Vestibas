@@ -140,7 +140,7 @@
 		margin: 0rem;
 		background-color: rgb(100, 202, 250);
 	}
-	.valor{
+	.valor_div{
 		display: none;
 		border-color: rgb(155, 200, 222);
 		border-width: 0.2rem;
@@ -151,6 +151,18 @@
 		height: 6rem;
 		border-radius: 0.2rem;
 		padding: 1rem;
+	}
+	.link{
+		display: block;
+		width: 5rem;
+		height: 2.5rem;
+		background-color: rgb(120, 207, 245);
+		font-size: 2rem; 
+		text-decoration:none; 
+		text-align: center;
+	}
+	.link:active{
+		background-color: rgb(100, 188, 227);
 	}
 /* Sobre Palestrante--------------------------------------------------------*/
 	.top{
