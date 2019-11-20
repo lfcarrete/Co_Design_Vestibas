@@ -1,29 +1,28 @@
 @media(max-width: 420px) {
-	html{
-		height: 100%;
-	}
-	body{
+
+	html,body,main{
 		 background-color: rgb(215, 234, 250);
 		 height: 100%;
-	}
-	main{
-		height: 100%
+		 max-width:100%;
 	}
 /* Header--------------------------------------------------------*/
 	.header{
+		position: fixed;
+		width:100%;
+		height: 7%;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
-		background-color: black;
-		height: 7%;
-		position: fixed;
-		width:100%;
-		top:0rem;
+		background-color: rgb(78, 120, 245);
+		box-shadow: 0.15rem 0.25rem #888888;
+		border-style: solid;
+		border-color: black;
+		border-width: 0.01rem
 	}
 	.logo{
 		max-height: 2.5rem;
-		margin-left: 0.3rem;
+		margin-left: 0rem;
 	}
 	.menu_img{
 		
@@ -34,12 +33,16 @@
 	.menu{
 		position: absolute;
 		display: none;
-		background-color: black;
+		background-color: rgb(78, 120, 245);
 		color: white;
 		height: 10rem;
 		width: 12rem;
-		top:3.5rem;
-		right:0.5rem;
+		top:100%;
+		right:0%;
+		border-style: solid;
+		border-color: black;
+		border-width: 0.05rem;
+		border-radius: 0.2rem;
 	}
 	.item{
 		padding: 0.5rem;
@@ -92,9 +95,10 @@
 	}
 /* Calendario--------------------------------------------------------*/
 	.cal_title{
+
 		text-decoration: underline;
 		font-size: 3rem;
-		margin-bottom: 3rem;
+		
 	}
 	.cal{
 		display: block;
@@ -142,7 +146,6 @@
 		border-width: 0.2rem;
 		border-style: solid;
 		background-color: rgb(170, 218, 242);
-		margin-top: 3rem;
 		font-size: 2rem;
 		width:17rem;
 		height: 6rem;
@@ -150,15 +153,12 @@
 		padding: 1rem;
 	}
 /* Sobre Palestrante--------------------------------------------------------*/
-	.body{
-		display: flex;
-		height: 100%;
-		flex-direction: column;
-		align-items: center;
-		justify-content: space-between;
-	}
 	.top{
 		margin-top: 5.5rem;
+		font-size: 2rem;
+		text-decoration: underline;
+		text-align: center;
+		width: 60%
 	}
 	.middle{
 		margin: 0rem 2rem;
@@ -170,7 +170,7 @@
 		margin-bottom: 0rem;
 		background-color: red;
 		width: 100%;
-		padding:1rem;
+		padding:1rem 0rem;
 		text-align: center;
 		color: white;
 	}

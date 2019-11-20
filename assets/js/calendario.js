@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
       select(".dia2")
       let valor = "Palestra com Engenheiro Civil."
       setValor(valor);
+   
 ;   });
    document.querySelector(".dia3").addEventListener("click", function(){
       clear();
