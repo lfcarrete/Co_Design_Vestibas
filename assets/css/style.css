@@ -56,11 +56,12 @@
 		height: 100%;
 		justify-content: space-evenly;
 		align-items: center;
+
 	}
 	.index_titulo{
 		color: black;
 		font-size: 2rem;
-		margin-top: 5.5rem;
+		margin-top: 3rem;
 		text-decoration: underline;
 	}
 	.myFaculs{
@@ -73,8 +74,8 @@
 	}
 	.facul1,.facul2,.facul3,.facul4,.facul5,.facul6{
 		display: block;
-		height: 6rem;
-		width: 6rem;
+		height: 5rem;
+		width: 5rem;
 		font-size: 2rem;
 		padding: 0.5rem;
 		color: white;
@@ -99,6 +100,7 @@
 
 		text-decoration: underline;
 		font-size: 3rem;
+		margin-top: 3rem;
 		
 	}
 	.cal{
@@ -172,14 +174,27 @@
 	}
 /* Sobre Palestrante--------------------------------------------------------*/
 	.top{
-		margin-top: 5.5rem;
+		margin-top: 5rem;
 		font-size: 2rem;
 		text-decoration: underline;
 		text-align: center;
 		width: 60%
 	}
 	.middle{
-		margin: 0rem 2rem;
+		width:100%;
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.sobre{
+		display:block;
+		height: 100%;
+		width: 50%;
+	}
+	.foto{
+		display:block;
+		background-color: gold;
+		height: 100%;
+		width: 30%;
 	}
 	.bottom{
 
