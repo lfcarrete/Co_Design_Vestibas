@@ -81,11 +81,14 @@
 		box-shadow: 0.5rem 1rem #888888;
 		border:0.1rem solid;
 		border-color: black;
+		animation-name: test;
+		animation-duration: 2s;
+		animation-play-state: paused;
 	}
 	.facul1:active,.facul2:active,.facul3:active,.facul4:active,.facul5:active,.facul6:active{
 		display: block;
-		height: 6rem;
-		width: 6rem;
+		height: 5rem;
+		width: 5rem;
 		font-size: 2rem;
 		padding: 0.5rem;
 		color: white;
