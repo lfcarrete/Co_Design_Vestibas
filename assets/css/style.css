@@ -56,7 +56,6 @@
 		height: 100%;
 		justify-content: space-evenly;
 		align-items: center;
-
 	}
 	.index_titulo{
 		color: black;
@@ -149,32 +148,34 @@
 	}
 	.valor_div{
 		display: none;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-evenly;
+		padding: 1rem;
+		width:70%;
+		height: 12%;
+		font-size: 2rem;
 		border-color: rgb(155, 200, 222);
 		border-width: 0.2rem;
 		border-style: solid;
 		background-color: rgb(170, 218, 242);
-		font-size: 2rem;
-		width:17rem;
-		height: 6rem;
 		border-radius: 0.2rem;
-		padding: 1rem;
 	}
 	.link{
 		display: block;
-		width: 5rem;
-		height: 2.5rem;
+		width: 50%;
+		height: 50%;
 		background-color: rgb(120, 207, 245);
 		font-size: 2rem; 
 		text-decoration:none; 
 		text-align: center;
-		margin: 0.25rem;
 	}
 	.link:active{
 		background-color: rgb(100, 188, 227);
 	}
 /* Sobre Palestrante--------------------------------------------------------*/
 	.top{
-		margin-top: 5rem;
+		margin-top: 6rem;
 		font-size: 2rem;
 		text-decoration: underline;
 		text-align: center;
@@ -192,19 +193,31 @@
 	}
 	.foto{
 		display:block;
-		background-color: gold;
+		background-color: gray;
 		height: 100%;
 		width: 30%;
 	}
 	.bottom{
-
+		display: flex;
+		width:80%;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.bottom2{
+		display: flex;
+		width:80%;
+		flex-direction: row;
+		justify-content: space-between;
 	}
 	.button{
 		margin-bottom: 0rem;
-		background-color: red;
+		background-color: rgb(250, 57, 57);
 		width: 100%;
 		padding:1rem 0rem;
 		text-align: center;
 		color: white;
+	}
+	.button:active{
+		background-color: rgb(163, 2, 2);
 	}
 }

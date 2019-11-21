@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
    function setValor(valor,link){
       document.querySelector(".valor").innerHTML = valor;
       document.querySelector(".link").href = link;
-      document.querySelector(".valor_div").style.display = "block";
+      document.querySelector(".valor_div").style.display = "flex";
 
       
    }
