@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
       for(i=1;i<32;i++){
          document.querySelector(".dia"+i).style.backgroundColor = "rgb(100, 202, 250)";
          document.querySelector(".valor_div").style.display = "none";
-         
       }
    }
    function setValor(valor,link){
@@ -17,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
       
    }
-
    document.querySelector(".dia1").addEventListener("click", function(){
       clear();
       select(".dia1")
@@ -28,7 +26,6 @@ document.addEventListener('DOMContentLoaded', function() {
       let valor = "Palestra com Engenheiro Civil."
       let link = "prof.html"
       setValor(valor,link);
-
 ;   });
    document.querySelector(".dia3").addEventListener("click", function(){
       clear();
