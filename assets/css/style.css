@@ -196,8 +196,8 @@
 	}
 	.foto{
 		display:block;
-		background-color: gray;
-		height: 100%;
+		background-color: rgb(185, 214, 246);
+		height: 80%;
 		width: 30%;
 	}
 	.bottom{
@@ -221,6 +221,44 @@
 		color: white;
 	}
 	.button:active{
+		background-color: rgb(163, 2, 2);
+	}
+/*Faculdade---------------------------------------------------------------------------*/
+
+/*Contato---------------------------------------------------------------------------*/
+	.contato{
+		font-weight: bold;
+		text-decoration: underline;
+		font-size: 2rem;
+	}
+	.centro{
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		width:80%;
+		height: 40%;
+	}
+	.remetente{
+		display: flex;
+		flex-direction: column;
+
+	}
+	.conteudo{
+		height: 60%;
+
+	}
+	.enviar{
+		width: 55%;
+		height: 3%;
+		padding: 1rem;
+		text-align: center;
+		border-style: solid;
+		border-width: 0.02rem;
+		border-color: black;
+		background-color: rgb(250, 57, 57);
+		color: white;
+	}
+	.enviar:active{
 		background-color: rgb(163, 2, 2);
 	}
 }
