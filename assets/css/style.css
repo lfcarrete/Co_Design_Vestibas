@@ -437,4 +437,19 @@
 		display: flex;
 		margin-top: 3rem;
 	}
+/*Painel de Oportunidades----------------------------------------------*/
+	.listaoportunidades{
+		position: relative;
+		top:-2rem;
+		font-size: 2rem;
+		text-decoration: underline;
+	}
+
+	.item1,.item2,.item3{
+		position: relative;
+		top:-4rem;
+		font-size: 1.5rem;
+		margin: 1rem 1rem;
+	}
+
 }
