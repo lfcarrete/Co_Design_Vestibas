@@ -283,8 +283,7 @@
 	}
 
 	.corpo{
-		display: flex;
-		height: 8rem;
+		display: flex;	
 		font-family: 'Poppins', sans-serif;
 
 
@@ -292,7 +291,6 @@
 
 	.Second{
 		display: flex;
-		height: 9rem;
 		margin: 0.7rem 1.5rem;
 
 	}
@@ -308,8 +306,8 @@
 	.Sub{
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;
-		height: 225%;
+		justify-content: space-evenly;
+		height: 130%;
 
 	}
 
