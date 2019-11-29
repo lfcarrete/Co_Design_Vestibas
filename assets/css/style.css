@@ -60,7 +60,7 @@
 	.index_titulo{
 		color: black;
 		font-size: 2rem;
-		margin-top: 3rem;
+		margin-top: 4.3rem;
 		text-decoration: underline;
 		font-family: 'Arbutus Slab', serif;
 	}
@@ -199,8 +199,9 @@
 	}
 	.foto{
 		display:block;
+		margin-top: 2rem;
 		background-color: rgb(185, 214, 246);
-		height: 60%;
+		height: 80%;
 		width: 30%;
 	}
 	.bottom{
