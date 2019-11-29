@@ -304,6 +304,7 @@
 	}
 
 	.Sub{
+		margin: 1rem 0rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-evenly;
